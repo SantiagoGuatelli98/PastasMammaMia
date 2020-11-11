@@ -20,7 +20,6 @@ body {
 
 header {
     top: 0;
-    position: static;
 }
 nav {
     background-image: url(img/Header.jpg);
@@ -165,20 +164,24 @@ nav {
 
 .pastas {
     height: 844px;
-    border: black solid 1px;
     position: relative; 
-    top: -120px;
+    top: -111px;
     left: 0px;
 }
 
-.pastas__1 {
+.pastas__section1 {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+.pastas__section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
 .pasta__box {
     width: 256.5px;
     height: 386px;
-    border: solid black 1px;
 }
