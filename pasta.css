@@ -57,7 +57,7 @@ nav {
     height: 48px;
     background-color: #A5A58D;
     opacity: 0;
-    transition: opacity .8s ;
+    transition: opacity .6s ;
 }
 
 .contacto__insta--page img {
@@ -96,7 +96,7 @@ nav {
     height: 48px;
     background-color: #A5A58D;
     opacity: 0;
-    transition: opacity .8s ;
+    transition: opacity .6s ;
 }
 
 .contacto__wsp--num img {
@@ -111,7 +111,6 @@ nav {
     margin-top: 12px;
     margin-left: 50px;
     float: left;
-
 }
 
 .contacto__wsp--num:hover {
@@ -184,4 +183,39 @@ nav {
 .pasta__box {
     width: 256.5px;
     height: 386px;
+    position: relative;
+}
+
+.pasta__box-precio {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    background: rgb(0,9,13);
+    background: linear-gradient(180deg, rgba(0,9,13,0) 0%, rgba(133,137,139,0.4990371148459384) 67%, rgba(255,255,255,0.6222864145658263) 100%);
+    transition: all 1s;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: column;
+}
+
+.pasta__box-precio:hover {
+    opacity: 1;
+}
+
+.pasta__box-precio h3 {
+    margin: 10px;
+    font-size: 26px; 
+}
+
+.precio p {
+    margin: 10px 5px 10px 10px;
+    display: inline-block;
+}
+.precio p s {
+    background-color: rgb(236, 87, 87);
 }
