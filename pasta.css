@@ -208,6 +208,13 @@ nav {
   position: relative;
 }
 
+.pasta__box3res {
+  display: none;
+}
+.pasta__box1res {
+  display: none;
+}
+
 .pasta__box-precio {
   position: absolute;
   width: 100%;

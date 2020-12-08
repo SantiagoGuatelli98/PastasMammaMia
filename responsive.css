@@ -1,66 +1,71 @@
 @media screen and (max-width: 887px) {
+  * {
+    box-sizing: border-box;
+  }
+  section {
+    top: -24px;
+    left: 0px;
+  }
 
-     * {
-         box-sizing: border-box;
-     }
-    .contenedorglobal {
-        max-width: 414px;
-        background-color: #FFF;
-        margin: 0 auto;
-        border-radius: 20px;    
-    }
-    .contacto {
+  .contenedorglobal {
+    max-width: 414px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  .contacto {
     display: none;
-    }
-    .ulnav {
-        display: none;
-    }
-    .pastas {
-        display: flex;
-        justify-content: space-around;
-    }
-    .pastas__section1 {
-        flex-direction: column;
-        width: 45%;
-        align-items: center;
-    }
-    
-    .pastas__section2 {
-        flex-direction: column;
-        width: 45%;
-        margin-top: 0;
-        align-items: center;
-    }
-    .pasta__box > img{
-        display: none;
-    }
-    .pasta__box1 {
-        background-image: url(img/Pastas/pastabox1res.jpg);
-    }
-    .pasta__box  {
-        width: 167.54px;
-        height: 177px;
-        position: relative;
-        object-fit: cover;
-    }
-    
-    .pasta__box-precio {
-        display: none;
-    }
-    .precio {
-        display: none;
-    }
+  }
+  .ulnav {
+    display: none;
+  }
+  .logoimg {
+      top: 0;
+      left: auto;
+      right: auto;
+  }
+
+  /* ----------------------------------pastas -------------------------------------------------------- */
+  .pastas {
+    display: flex;
+    justify-content: space-around;
+  }
+  .pastas__section1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pasta__box {
+    margin: 10px;
+    width: 167px;
+    height: 252px;
+  }
+  .pasta__box2 {
+    order: -3;
+  }
+  .pasta__box3 {
+    display: none;
+  }
+  .pasta__box3res {
+    display: block;
+  }
+  .pasta__box1res {
+    display: block;
+  }
+  .pasta__box3res {
+    order: -4;
+  }
+  .pastas__section2 {
+    flex-direction: column;
+    margin-top: 0;
+    align-items: center;
+  }
+  .pasta__box img {
+    width: 100%;
+    height: auto;
+  }
 
 
-
-
-
-
-
-
-
-
-
-
-
+  .pasta__box-precio {
+    display: none;
+  }
 }
