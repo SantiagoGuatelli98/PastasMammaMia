@@ -3,30 +3,30 @@
   box-sizing: content-box;
 }
 
+section {
+  position: relative;
+  top: -111px;
+  left: 0px;
+}
+
 body {
-  background-color: #a5a58d;
+  background-image: url(img/body.png);
   padding: 0;
   margin: 10px 0;
 }
 
 .contenedorglobal {
-  width: 100%;
-  height: auto;
   max-width: 1224px;
-  background-color: #d3d2c0;
+  background-color: #FFF;
   margin: 0 auto;
   border-radius: 20px;
 }
 
-header {
-  top: 0;
-}
 nav {
-  background-image: url(img/Header.jpg);
+  background-image: url(img/Header2.jpg);
   background-attachment: scroll;
   background-position: center;
-  background-size: cover;
-  width: 100%;
+  background-repeat: no-repeat;
   height: 405px;
   padding-top: 10px;
   border-top-left-radius: 20px;
@@ -40,7 +40,6 @@ nav {
   justify-content: space-between;
   align-content: center;
   flex-direction: row;
-  width: 100%;
 }
 /* Instagram  */
 .contacto__insta {
@@ -55,7 +54,7 @@ nav {
   left: 0;
   width: 260px;
   height: 48px;
-  background-color: #a5a58d;
+  background-color: #AAA;
   opacity: 0;
   transition: opacity 0.6s;
 }
@@ -94,7 +93,7 @@ nav {
   right: 0;
   width: 260px;
   height: 48px;
-  background-color: #a5a58d;
+  background-color: #AAA;
   opacity: 0;
   transition: opacity 0.6s;
 }
@@ -121,25 +120,53 @@ nav {
 /* Logo  */
 .logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
 }
 
-.logo ul {
-  list-style: none;
+.logoimg {
+  flex-basis: 370px;
+  flex-shrink: 0;
+  height: 298px;
+  position: relative;
+  top: -50px;
+  left: 12px;
+}
+
+.ulnav {
+  flex-grow: 1;
+}
+
+.ulnav ul {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding-bottom: 130px;
 }
 
 .logo ul li a {
-  font-size: 38px;
+  font-size: 28px;
   color: black;
   text-decoration: none;
   font-weight: 700;
+} 
+
+
+
+
+/* .logo ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
 }
+
 .ulnav1 {
   padding-left: 20px;
   padding-top: 40px;
   width: 28%;
+  flex-grow: 1;
   height: 200px;
 }
 
@@ -151,10 +178,11 @@ nav {
 
 .ulnav2 {
   width: 28%;
+  flex-grow: 1;
   height: 200px;
-  padding-right: 20px;
-  padding-top: 40px;
-}
+  padding-right: 20px; 
+  padding-top: 40px;  
+}  */
 
 /* ---------------------------------------------------- */
 /* Main content  */
@@ -162,25 +190,20 @@ nav {
 
 .pastas {
   height: 844px;
-  position: relative;
-  top: -111px;
-  left: 0px;
 }
 
 .pastas__section1 {
-  width: 100%;
   display: flex;
   justify-content: space-around;
 }
 .pastas__section2 {
-  width: 100%;
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
 
 .pasta__box {
-  width: 256.5px;
+  width: 257px;
   height: 386px;
   position: relative;
 }
@@ -227,12 +250,8 @@ nav {
 /* Pedidos */
 
 .pedidos {
-  width: 100%;
   margin: 0 auto;
   height: 390px;
-  position: relative;
-  top: -110px;
-  left: 0px;
   display: flex;
   flex-direction: column;
   justify-content: top;
@@ -250,12 +269,12 @@ nav {
   justify-content: space-around;
   text-align: center;
   border-radius: 20px;
-  border: black solid 1px;
+  border: #AD8350 solid 1px;
   background: url(img/logos/Line.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 90px;
-  background-color: #ececdf;
+  background-color: #D3F1EB;
 
 }
 
@@ -272,13 +291,11 @@ nav {
   display: flex;
   justify-content: space-around;
   width: 86%;
-  margin: 0 auto;
-  position: relative;
-  top: -65px;
-  left: 0;
+  margin: auto;
+  margin-top: 60px;
 }  
 .map__google {
-  border: #AD8350 solid 10px;
+  border: #AD8350 solid 3px;
   height: 452px;
 }
 .map__text {
@@ -299,7 +316,6 @@ nav {
 /* -------------------------Footer--------------------------------------- */
 
 .footer {
-  width: 100%;
   height: 270px;
   background-color: #000;
   border-bottom-left-radius: 20px;

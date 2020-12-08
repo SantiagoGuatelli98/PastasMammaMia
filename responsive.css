@@ -1,0 +1,66 @@
+@media screen and (max-width: 887px) {
+
+     * {
+         box-sizing: border-box;
+     }
+    .contenedorglobal {
+        max-width: 414px;
+        background-color: #FFF;
+        margin: 0 auto;
+        border-radius: 20px;    
+    }
+    .contacto {
+    display: none;
+    }
+    .ulnav {
+        display: none;
+    }
+    .pastas {
+        display: flex;
+        justify-content: space-around;
+    }
+    .pastas__section1 {
+        flex-direction: column;
+        width: 45%;
+        align-items: center;
+    }
+    
+    .pastas__section2 {
+        flex-direction: column;
+        width: 45%;
+        margin-top: 0;
+        align-items: center;
+    }
+    .pasta__box > img{
+        display: none;
+    }
+    .pasta__box1 {
+        background-image: url(img/Pastas/pastabox1res.jpg);
+    }
+    .pasta__box  {
+        width: 167.54px;
+        height: 177px;
+        position: relative;
+        object-fit: cover;
+    }
+    
+    .pasta__box-precio {
+        display: none;
+    }
+    .precio {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

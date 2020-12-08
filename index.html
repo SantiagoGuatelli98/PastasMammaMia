@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MammaMia Pastas</title>
     <link rel="stylesheet" href="pasta.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Prata&display=swap"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="shortcut icon" href="img/logos/icon.png">
+    <link rel="shortcut icon" href="img/logos/icon.png" />
+    <link rel="stylesheet" href="responsive.css"/>
+    <script src="js/wow.min.js"></script>
   </head>
   <body>
     <div class="contenedorglobal">
@@ -36,14 +38,23 @@
             </div>
           </div>
           <div class="logo">
-            <ul class="ulnav1">
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Pastas</a></li>
-            </ul>
-            <ul class="ulnav2">
-              <li><a href="#">Galeria</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
+            <div class="ulnav">
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Pastas</a></li>
+              </ul>
+            </div>
+            <div class="logoimg">
+              <a href="#">
+                <div class="logoimg"></div>
+              </a>
+            </div>
+            <div class="ulnav">
+              <ul >
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
           </div>
         </nav>
       </header>
@@ -51,7 +62,7 @@
       <main>
         <section>
           <div class="pastas">
-            <div class="pastas__section1 animate__animated animate__fadeInUp">
+            <div class="pastas__section1  animate__animated animate__fadeInUp">
               <div class="pasta__box pasta__box-1">
                 <img src="img/Pastas/pastabox1.png" alt="" />
                 <div class="pasta__box-precio">
@@ -93,9 +104,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="pastas__section2 wow animate__animated animate__fadeInUp"
-            >
+            <div class="pastas__section2 wow animate__animated animate__fadeInUp">
               <div class="pasta__box pasta__box-1">
                 <img src="img/Pastas/pastabox5.png" alt="" />
                 <div class="pasta__box-precio">
@@ -142,6 +151,9 @@
         <!-- informacion/contacto  -->
         <section>
           <div class="pedidos">
+            <div class="pedidos__title">
+              <h2>Pedidos</h2>
+            </div>
             <div class="pedidos__icons">
               <div class="icons wow animate__animated animate__fadeInUp">
                 <img src="img/logos/phone.svg" alt="phone icon" />
@@ -208,7 +220,12 @@
               <li>Dejanos tu opinion:</li>
               <li>
                 <label for="opinion">
-                  <textarea name="" id="" cols="30" rows="4" style="resize: none"
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="4"
+                    style="resize: none"
                   ></textarea>
                 </label>
               </li>
@@ -218,9 +235,22 @@
           <div class="footer__list">
             <h3>Redes</h3>
             <ul>
-              <li><a href="https://www.instagram.com/mammamia_pasta/"><img src="img/logos/instagram (2).png" width="20px"> Instagram</a></li>
-              <li><a href="https://www.facebook.com/Pastas-Mamma-M%C3%ADa-110098814127579/"><img src="img/logos/facebook.png" width="20px">Facebook</a></li>
-              <li><img src="img/logos/whatsapp (1).png" width="20px"> Whatsapp: 11 2374-6663</li>
+              <li>
+                <a href="https://www.instagram.com/mammamia_pasta/"
+                  ><img src="img/logos/instagram (2).png" width="20px" />
+                  Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/Pastas-Mamma-M%C3%ADa-110098814127579/"
+                  ><img src="img/logos/facebook.png" width="20px" /> Facebook</a
+                >
+              </li>
+              <li>
+                <img src="img/logos/whatsapp (1).png" width="20px" /> Whatsapp:
+                11 2374-6663
+              </li>
             </ul>
           </div>
           <div class="footer__list">
@@ -235,7 +265,6 @@
         </div>
       </footer>
     </div>
-    <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
