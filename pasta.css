@@ -251,7 +251,6 @@ nav {
 
 .pedidos {
   margin: 0 auto;
-  height: 390px;
   display: flex;
   flex-direction: column;
   justify-content: top;
@@ -261,7 +260,15 @@ nav {
   background-position-y: 90px;
   border-radius: 20px;
 }
+
+.pedidos__title {
+  position: absolute;
+  top: -48px;
+  left: calc(50% - 49px);
+}
+
 .pedidos__icons {
+  padding-bottom: 40px;
   width: 96%;
   margin: 0 auto;
   height: 390px;
@@ -275,16 +282,15 @@ nav {
   background-position-x: center;
   background-position-y: 90px;
   background-color: #D3F1EB;
-
 }
 
 .icons {
-  height: 128px;
-  width: 128px;
+  height: 159px;
+  width: 159px;
   margin-top: 30px; 
 }
 .icons h3 {
-  overflow: hidden;
+  text-align: center;
 }
 /* --------------------------map--------------------------------- */
 .map {
@@ -302,9 +308,9 @@ nav {
   width: 50%;
   text-align: center;
   margin: 78px 20px;
-  border: 3px solid #AD8350;
+  border: 1px solid #AD8350;
   padding: 20px;
-  background-color: #ececdf;
+  background-color: #D3F1EB;
 }
 .map__text h3 {
   font-size: 25px;
