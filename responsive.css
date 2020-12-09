@@ -107,8 +107,8 @@
     }
 
     .map__text {
-        width: 80%;
-        text-align: start;
+        width: 100%;
+        text-align: center;
         order: -1;
         
     }
@@ -116,6 +116,7 @@
 
     .footer__list {
         display: none;
+        
     }
 
     .footer__list-redes {
@@ -127,14 +128,16 @@
         display: block;
     }
 
-    .footer {
-        overflow: hidden;
-    }
+    
 
-    .footer__img-res  {
-        height: 100%;
+    .footer__img-res {
         display: block;
     }
+    .footer__img {
+      align-self: flex-end;
+      justify-self: flex-end;
+    }
+
 
     .footer__img-desk {
          display: none;
