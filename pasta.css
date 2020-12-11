@@ -17,7 +17,7 @@ body {
 
 .contenedorglobal {
   max-width: 1224px;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 0 auto;
   border-radius: 20px;
 }
@@ -54,7 +54,7 @@ nav {
   left: 0;
   width: 260px;
   height: 48px;
-  background-color: #AAA;
+  background-color: #aaa;
   opacity: 0;
   transition: opacity 0.6s;
 }
@@ -93,7 +93,7 @@ nav {
   right: 0;
   width: 260px;
   height: 48px;
-  background-color: #AAA;
+  background-color: #aaa;
   opacity: 0;
   transition: opacity 0.6s;
 }
@@ -151,10 +151,7 @@ nav {
   color: black;
   text-decoration: none;
   font-weight: 700;
-} 
-
-
-
+}
 
 /* .logo ul {
   list-style: none;
@@ -279,18 +276,18 @@ nav {
   justify-content: space-around;
   text-align: center;
   border-radius: 20px;
-  border: #AD8350 solid 1px;
+  border: #ad8350 solid 1px;
   background: url(img/logos/Line.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 90px;
-  background-color: #D3F1EB;
+  background-color: #d3f1eb;
 }
 
 .icons {
   height: 159px;
   width: 159px;
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 .icons h3 {
   text-align: center;
@@ -302,18 +299,18 @@ nav {
   width: 86%;
   margin: auto;
   margin-top: 60px;
-}  
+}
 .map__google {
-  border: #AD8350 solid 3px;
+  border: #ad8350 solid 3px;
   height: 452px;
 }
 .map__text {
   width: 50%;
   text-align: center;
   margin: 78px 20px;
-  border: 1px solid #AD8350;
+  border: 1px solid #ad8350;
   padding: 20px;
-  background-color: #D3F1EB;
+  background-color: #d3f1eb;
 }
 .map__text h3 {
   font-size: 25px;
@@ -339,7 +336,7 @@ nav {
   text-align: start;
   margin: 10px;
 }
-.footer__list  ul{
+.footer__list ul {
   color: white;
   display: flex;
   flex-direction: column;
@@ -354,21 +351,21 @@ nav {
   text-decoration: none;
 }
 
-.footer__list li a{
+.footer__list li a {
   text-decoration: none;
   color: white;
 }
 .footer__list label textarea {
-  padding: 0; 
+  padding: 0;
   background-color: #ccc;
   border-radius: 20px;
   transition: all 1s;
 }
 .footer__list label textarea:focus {
-  padding: 0; 
+  padding: 0;
   background-color: #fff;
   border-radius: 0;
-  outline: solid 2px #AD8350;
+  outline: solid 2px #ad8350;
 }
 
 .footer__img img {
@@ -378,6 +375,3 @@ nav {
 .footer__img-res {
   display: none;
 }
-
-
-
